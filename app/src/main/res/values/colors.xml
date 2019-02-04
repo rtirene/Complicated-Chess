@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f1f8e9</color>
+    <color name="colorPrimaryDark">#757575</color>
+    <color name="colorAccent">#e1e1eb</color>
+    <color name="primaryTextDark">#000000</color>
+    <color name="colorPopup">#c5e1a5</color>
+    <color name="colorItemPopup">#6e6969</color>
+    <color name="board1">#a5d6a7</color>
+    <color name="board2">#dcedc8</color>
+    <color name="selectedPiece">#64b5f6</color>
+    <color name="teleportSelectedPiece">#d7ccc8</color>
+    <color name="possibleAttackCell">#f44336</color>
+    <color name="possibleDirectionCell">#79fff59d</color>
+    <color name="frozenPiece">#4dd0e1</color>
+    <color name="redColor">#F40303</color>
+    <color name="specialCell">#b71c1c</color>
+    <color name="highlightCell">#e1ffffff</color>
+    <color name="replayBackground">#bdbdbd</color>
+</resources>

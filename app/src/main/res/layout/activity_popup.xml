@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPopup">
+
+    <TableRow>
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/primaryTextDark"
+        android:textSize="22dp" />
+    </TableRow>
+
+    <TableRow>
+    <TextView
+        android:id="@+id/vitality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vitality"
+        android:textColor="@color/colorItemPopup"
+        android:textSize="14dp"/>
+
+    </TableRow>
+
+    <TableRow>
+    <TextView
+        android:id="@+id/moverange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/move_range"
+        android:textColor="@color/colorItemPopup"
+        android:textSize="14dp"/>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/movedirection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/move_direction"
+            android:textColor="@color/colorItemPopup"
+            android:textSize="14dp"/>
+
+    </TableRow>
+
+    <TableRow>
+    <TextView
+        android:id="@+id/movetype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/moveType"
+        android:textColor="@color/colorItemPopup"
+        android:textSize="14dp"/>
+
+    </TableRow>
+
+    <TableRow>
+    <TextView
+        android:id="@+id/attackrange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/attackRange"
+        android:textColor="@color/colorItemPopup"
+        android:textSize="14dp"/>
+
+    </TableRow>
+
+    <TableRow>
+    <TextView
+        android:id="@+id/attacktype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/attackType"
+        android:textColor="@color/colorItemPopup"
+        android:textSize="14dp"/>
+
+    </TableRow>
+
+    <TableRow>
+    <TextView
+        android:id="@+id/strenght"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strenght"
+        android:textColor="@color/colorItemPopup"
+        android:textSize="14dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/spells"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/availableSpells"
+            android:textColor="@color/colorItemPopup"
+            android:textSize="14dp"/>
+    </TableRow>
+
+
+</TableLayout>

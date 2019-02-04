@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">Complicated Chess</string>
+    <string name="white_turn">White\'s Turn</string>
+    <string name="black_turn">Black\'s Turn</string>
+    <string name="white">White Team</string>
+    <string name="black">Black Team</string>
+    <string name="squaredesc">Square Background</string>
+    <string name="piecedesc">Piece</string>
+    <string name="moveButton">MOVE</string>
+    <string name="attackButton">ATTACK</string>
+    <string name="description">DESCRIPTION:</string>
+    <string name="savedGame">Load Game</string>
+    <string name="onlineGame">Online Game</string>
+    <string name="play">Play</string>
+    <string name="rules">Rules</string>
+    <string name="vitality">VITALITY:</string>
+    <string name="move_range">MOVE RANGE: </string>
+    <string name="moveType">MOVE TYPE:</string>
+    <string name="attackRange">ATTACK RANGE:</string>
+    <string name="attackType">ATTACK TYPE:</string>
+    <string name="strenght">STRENGHT:</string>
+    <string name="availableSpells">AVAILABLE SPELLS:</string>
+    <string name="move">MOVE</string>
+    <string name="spell">SPELL</string>
+    <string name="freeze">FREEZE</string>
+    <string name="heal">HEAL</string>
+    <string name="teleport">TELEPORT</string>
+    <string name="revive">REVIVE</string>
+    <string name="attack">ATTACK</string>
+    <string name="undo">UNDO</string>
+    <string name="moveTips">select the cell where to move</string>
+    <string name="attackTips">select the piece to attack </string>
+    <string name="teleportTips1">select the piece to teleport</string>
+    <string name="teleportTips2">select the cell where to teleport</string>
+    <string name="freezeTips">select the piece to freeze</string>
+    <string name="healTips">select the piece to heal</string>
+    <string name="reviveTips">select the piece to revive</string>
+    <string name="title_activity_play">PlayActivity</string>
+    <string name="reviveTips2">select the cell where to revive</string>
+    <string name="reviveTips1">there are no dead pieces to revive</string>
+
+    <string name="completeRules">
+        <![CDATA[
+        <h1>Rules</h1>
+
+        <h2>Gameplay</h2>
+
+        <p>There are two players,&nbsp;white and black, each with 8 pieces. White start and players alternate turns.</p>
+
+        <p>A <strong>turn</strong> consists in one of the following actions:</p>
+
+        <ul>
+        	<li>Moving a chosen piece of one&#39;s own side</li>
+	        <li>Attacking an opponent&#39;s piece in order to reduce its vitality</li>
+	        <li>Casting a spell</li>
+        </ul>
+
+        <p>Each piece type has different characteristics: the way it can move on the board, the way it can attack other pieces, its strength and&nbsp;its vitality. All those information can be accessed by keeping pressed on a piece.</p>
+
+        <p>If the vitality of a piece goes&nbsp;0, the piece is killed and removed from the board.</p>
+
+        <h3>Attack</h3>
+
+        <p>A piece can attack an opponent if the opponent is in range and there are no other pieces between them along the attack direction. When a pieced is attacked its vitality is diminished by the strength of the attacker. (Remember that mages and squire&nbsp;cannot attack)</p>
+
+        <h3>Combat</h3>
+
+        <p>If a move makes a piece arrive at a cell occupied by an apponent&#39;s piece, they start a combat: both pieces diminish their vitality by an amoutn equal to their opponent&#39;s strength; this is repeated until one or both pieces are killed.</p>
+
+        <h3>Spell</h3>
+
+        <p>Mages can cast spells. Every spell can only be cast once by a mage. No spell can involve a special cell or a cell where a mage lies. There are 4 kind of spell:</p>
+
+        <ul>
+	        <li>Heal: restore the initial vitality of a player&#39;s piece</li>
+	        <li>Teleport: move a selected piece to any cell that is not occupied by an ally.</li>
+	        <li>Freeze: a selected opponent&#39;s piece is frozen until the end of the opponent&#39;s 3rd turn. When frozen the piece cannot move, attack or deal damage in combat.</li>
+	        <li>Revive: bring back a player&#39;s killed piece with its initial vitality and unfrozen in its initial position (or one of the initial positions in the case of knight or squire)</li>
+        </ul>
+
+        <h2>Goal of the game</h2>
+
+        <p>The goal is to occupy three out of four special cells in the board with one&#39;s own pieces, or to kill all the opponent&#39;s pieces.</p>
+
+        ]]>
+    </string>
+    <string name="move_direction">MOVE DIRECTION:</string>
+    <string name="horizontal">horiz</string>
+    <string name="vertical">vert</string>
+    <string name="diagonal">diag</string>
+    <string name="walk">walk</string>
+    <string name="fly">fly</string>
+    <string name="freeze_pop">freeze</string>
+    <string name="revive_pop">revive</string>
+    <string name="teleport_pop">teleport</string>
+    <string name="heal_pop">heal</string>
+    <string name="subtitle1">Just like chess,</string>
+    <string name="subtitle2">but more complicated</string>
+    <string name="load">Load</string>
+    <string name="delete">Delete</string>
+    <string name="replayButton">Replay</string>
+    <string name="nameRequest">PLEASE INSERT YOUR MATCH NAME</string>
+    <string name="saveMatch">Save match</string>
+    <string name="backToGame">Back to the game</string>
+    <string name="MatchAlreadyExist">This match already exists</string>
+    <string name="teleports">teleports</string>
+    <string name="Mage">Mage</string>
+    <string name="moved">moved</string>
+    <string name="defeated">defeated</string>
+    <string name="NoPieceSurvived">"No piece survived the combat "</string>
+    <string name="attacks">attacked</string>
+    <string name="illegalMove">Illegal Move</string>
+    <string name="illegalAttack">Illegal Attack</string>
+    <string name="freezes">freezes</string>
+    <string name="illegalFreeze">Illegal Freeze</string>
+    <string name="revives">revives</string>
+    <string name="combatWon">and he won the combat</string>
+    <string name="reviveDied">The revived piece died in the combat</string>
+    <string name="reviveBothDied">Both pieces died in combat after the revive</string>
+    <string name="heals">heals</string>
+    <string name="illegalRevive">Illegal Revive</string>
+    <string name="illegalHeal">Illegal Heal</string>
+    <string name="teleported">teleported</string>
+    <string name="against">against</string>
+    <string name="and">and</string>
+    <string name="combatNotWon">but he didn\'t survive the combat</string>
+    <string name="duringCombat">but during the combat against</string>
+    <string name="noOneSurvived">no one survived</string>
+    <string name="illegalTeleport">Illegal Teleport</string>
+    <string name="playAgain">Last turn. Click on play to continue the game</string>
+    <string name="Exit">Exit</string>
+    <string name="saveBeforeQuit">Do you want to save the game before quit?</string>
+    <string name="Save">Save</string>
+    <string name="Quit">Quit</string>
+    <string name="sureToQuit">Are you sure to quit?</string>
+    <string name="theGame">" \n (The game '"</string>
+    <string name="beenSaved">\' has been saved automatically!)</string>
+    <string name="yes">Yes</string>
+    <string name="No">No</string>
+    <string name="winWantToPlayAgain">" wins! Want to play again?"</string>
+    <string name="wantToPlayAgain">! Want to play again?</string>
+    <string name="shorterName">Please insert a a shorter name</string>
+    <string name="Match">"Match: "</string>
+    <string name="ChooseTeam">Choose Team</string>
+    <string name="ChooseYourTeam">Choose your team</string>
+    <string name="Black">Black</string>
+    <string name="White">White</string>
+    <string name="AI">HUMAN vs. CPU</string>
+    <string name="newGame">HUMAN vs. HUMAN</string>
+    <string name="replay">OLD GAMES</string>
+    <string name="AIThinking">I\'m thinking...</string>
+    <string name="killedAfterAttack">and he killed it</string>
+    <string name="wait">Wait an opponent</string>
+    <string name="validName">Insert a Valid Name</string>
+    <string name="load_game">LOAD GAME</string>
+    <string name="replay_doing">REPLAY</string>
+</resources>

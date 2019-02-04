@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:clipToPadding="false"
+    tools:context="com.mobileapp.polimi.maprojectg4.controller.GameActivity"
+    android:background="@color/colorPrimary">
+
+    <GridView
+        android:id="@+id/chessboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top|center_horizontal"
+        android:numColumns="6"
+        android:elevation="20dp"
+        android:stretchMode="columnWidth" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@id/chessboard"
+        app:layout_anchorGravity="bottom"
+        android:requiresFadingEdge="horizontal"
+        android:fadingEdgeLength="10dp"
+        android:layout_gravity="bottom|left">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:id="@+id/taskBar"
+            android:layout_height="match_parent">
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/infoGame"
+        android:onClick="goToRules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/info_icon"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        app:borderWidth="0dp"
+        app:elevation="9dp"
+        app:fabSize="mini"
+        android:paddingBottom="0dp"
+        android:paddingEnd="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingStart="0dp"
+        android:paddingTop="0dp"
+        android:padding="0dp"
+        android:background="@color/board1"
+        app:backgroundTint="@color/board1" />
+
+    <TextView
+        android:id="@+id/turnView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:textColor="@color/primaryTextDark"
+        android:text="@string/white_turn" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/sound"
+        android:onClick="soundOnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/start_sound"
+        android:layout_gravity="bottom|left"
+        android:layout_margin="16dp"
+        app:borderWidth="0dp"
+        app:elevation="9dp"
+        app:fabSize="mini"
+        android:paddingBottom="0dp"
+        android:paddingEnd="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingStart="0dp"
+        android:paddingTop="0dp"
+        android:padding="0dp"
+        android:background="@color/board1"
+        app:backgroundTint="@color/board1" />
+
+</android.support.design.widget.CoordinatorLayout>
+
+

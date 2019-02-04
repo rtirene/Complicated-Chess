@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="attackButton">ATTACCO</string>
+    <string name="attackRange">RAGGIO DI ATTACCO:</string>
+    <string name="attackType">TIPO DI ATTACCO:</string>
+    <string name="availableSpells">MAGIE DISPONIBILI:</string>
+    <string name="black_turn">Turno del Nero</string>
+    <string name="description">DESCRIZIONE:</string>
+    <string name="freeze">CONGELA</string>
+    <string name="heal">GUARISCI</string>
+    <string name="moveButton">MUOVI</string>
+    <string name="moveType">TIPO DI MOVIMENTO:</string>
+    <string name="move_range">RAGGIO DI MOVIMENTO:</string>
+    <string name="savedGame">Carica Partita</string>
+    <string name="onlineGame">Gioca Online</string>
+    <string name="play">Gioca</string>
+    <string name="rules">Regole</string>
+    <string name="revive">RIANIMA</string>
+    <string name="strenght">FORZA:</string>
+    <string name="teleport">TELETRASPORTO</string>
+    <string name="undo">INDIETRO</string>
+    <string name="vitality">VITA:</string>
+    <string name="white_turn">Turno del Bianco</string>
+    <string name="freezeTips">seleziona il pezzo da congelare</string>
+    <string name="healTips">seleziona il pezzo da guarire</string>
+    <string name="moveTips">seleziona la posizione dove muovere</string>
+    <string name="reviveTips">seleziona il pezzo da rianimare</string>
+    <string name="teleportTips1">seleziona il pezzo da teletrasportare</string>
+    <string name="teleportTips2">seleziona la posizione dove teletrasportare</string>
+    <string name="attackTips">seleziona il pezzo da attaccare</string>
+    <string name="reviveTips2">seleziona la posizione dove rianimare</string>
+    <string name="reviveTips1">non ci sono pezzi morti da rianimare</string>
+    <string name="diagonal">diag</string>
+    <string name="teleports">teletrasporta</string>
+    <string name="Match">"Match: "</string>
+    <string name="winWantToPlayAgain">ha vinto! Vuoi giocare di nuovo?</string>
+    <string name="wantToPlayAgain">! Vuoi giocare di nuovo?</string>
+    <string name="white">Team Bianco</string>
+    <string name="yes">Si</string>
+    <string name="walk">cammina</string>
+    <string name="vertical">vert</string>
+    <string name="teleported">ha teletrasportato</string>
+    <string name="sureToQuit">Sei sicuro di voler uscire?</string>
+    <string name="shorterName">Inseririsci un nome più breve</string>
+    <string name="saveMatch">Salva Match</string>
+    <string name="saveBeforeQuit">Vuoi salvare il match prima di uscire?</string>
+    <string name="revives">ha rianimato</string>
+    <string name="reviveBothDied">Entrambi i pezzi sono morti dopo la rianimazione</string>
+    <string name="playAgain">Ultimo Turno. Clicca su gioca per continuare la partita</string>
+    <string name="noOneSurvived">nessuno è sopravvissuto</string>
+    <string name="nameRequest">INSERISCI IL NOME DEL MATCH</string>
+    <string name="move_direction">TRAIETTORIA DI MOVIMENTO:</string>
+    <string name="load">Carica</string>
+    <string name="illegalTeleport">Teletrasporto non permesso</string>
+    <string name="illegalRevive">Rianimazione non permessa</string>
+    <string name="illegalMove">Mossa non permessa</string>
+    <string name="illegalHeal">Cura non permessa</string>
+    <string name="illegalFreeze">Congelamento non permesso</string>
+    <string name="illegalAttack">Attacco non permesso</string>
+    <string name="horizontal">horiz</string>
+    <string name="heals">guarisce</string>
+    <string name="freezes">congela</string>
+    <string name="fly">vola</string>
+    <string name="duringCombat">ma durante il duello contro</string>
+    <string name="delete">Cancella</string>
+    <string name="defeated">ha sconfitto</string>
+    <string name="combatWon">e ha vinto il duello</string>
+    <string name="combatNotWon">ma non è sopravissuto al duello</string>
+    <string name="black">Team Nero</string>
+    <string name="beenSaved">è stata salvata automaticamente)</string>
+    <string name="backToGame">Torna alla partita</string>
+    <string name="attack">ATTACCO</string>
+    <string name="and">E</string>
+    <string name="against">contro</string>
+    <string name="White">Bianco</string>
+    <string name="Save">Salva</string>
+    <string name="Quit">Esci</string>
+    <string name="NoPieceSurvived">Nessun pezzo è sopravvissuto al duello</string>
+    <string name="No">No</string>
+    <string name="MatchAlreadyExist">Questo match esiste già</string>
+    <string name="Mage">Mago</string>
+    <string name="Exit">Esci</string>
+    <string name="ChooseYourTeam">Scegli il tuo team</string>
+    <string name="ChooseTeam">Scegli Team</string>
+    <string name="Black">Nero</string>
+    <string name="spell">MAGIA</string>
+    <string name="theGame">\" \n (La partita\'\"</string>
+    <string name="moved">ha mosso</string>
+
+      <string name="completeRules">
+        <![CDATA[
+        <h1>Regole</h1>
+<h2>Gameplay</h2>
+<p>Ci sono due giocatori, bianco e nero, ognuno con 8 pezzi. Il bianco inizia e i giocatori si alternano nei turni.</p>
+<p>Un&nbsp;<strong>turno</strong>&nbsp;consiste in una delle seguenti azioni:</p>
+<ul>
+<li>Muovere un pezzo scelto del proprio team</li>
+<li>Attaccare un pezzo nemico al fine di ridurre la sua vitalit&agrave;</li>
+<li>Lanciare un incantesimo</li>
+</ul>
+<p>Ogni pezzo ha caratteristiche differenti: il modo in cui possono muoversi sulla scacchiera, il modo in cui possono attaccare i pezzi nemici, la loro forza e vitalit&agrave;. Si pu&ograve; accedere a tutte queste informazioni tenendo premuto su un pezzo</p>
+<p>Se la vitalit&agrave; del pezzo va a 0, questo muore ed &egrave; rimosso dalla scacchiera.</p>
+<h3>Attacco</h3>
+<p>Un pezzo pu&ograve; attaccare un nemico se questo &egrave; nel suo range e non ci sono altri pezzi tra loro nella direzione d\'attacco.Quando un pezzo viene attaccato la sua vitalit&agrave; diminuisce di un numero pari alla forza di chi lo attacca. (Ricorda che il mago e lo scudiero non possono attaccare)</p>
+<h3>Duello</h3>
+<p>Se un pezzo viene mosso su una casella occupata da un aversario,i due iniziano un duello: entrambi i pezzi perdono un quantitativo di vitalit&agrave; pari alla forza dell\'avversario; questo viene ripetuto finch&egrave; uno dei pezzi, o entrambi, muoiono.</p>
+<h3>Incantesimi</h3>
+<p>Solo i maghi possono lanciare incantesimi e ogni incantesimo pu&ograve; essere lanciato una sola volta.Gli incantesimi non possono coinvolgere celle speciali e celle occupate da un mago. Abbiamo 4 tipi di incantesimi:</p>
+<ul>
+<li>Guarisci: ripristina la vitalit&agrave; iniziale dei pezzo su cui &egrave; lanciato.</li>
+<li>Teletrasporto: muove un pezzo scelto su una qualsiasi casella non occupata da un pezzo del proprio team.</li>
+<li>Congela:Blocca un pezzo aversario per i suoi successivi 3 turni.Quando un pezzo &egrave; congelato non pu&ograve; muoversi, attaccare o causare danno nel duelli</li>
+<li>Rianima: fa tornare un personaggio morto con la sua vitalit&agrave; iniziale e nella sua posizione iniziale&nbsp;(o in una delle due a scelta in caso di scudiero o cavaliere).</li>
+</ul>
+<h2>Scopo del gioco.</h2>
+<p>Si vince quando si riesce ad occupare 3 delle 4 posizioni speciali con i pezzi della propria squadra, o quando si uccidono tutti i pezzi dell\'avversario (e al massimo ne resta uno congelato).</p>
+
+        ]]>
+    </string>
+    <string name="AI">GIOCATORE VS. CPU</string>
+    <string name="replay">STORICO PARTITE</string>
+    <string name="attacks">ha attaccato</string>
+    <string name="killedAfterAttack">e l\'ha ucciso</string>
+    <string name="AIThinking">Sto pensando</string>
+    <string name="wait">Sto aspettando un altro giocatore</string>
+    <string name="newGame">GIOCATORE 1 vs. GIOCATORE 2</string>
+    <string name="reviveDied">Il pezzo rianimato è morto nel duello</string>
+    <string name="validName">Inserisci un nome valido</string>
+    <string name="load_game">CARICA PARTITA</string>
+    <string name="replay_doing">REPLAY</string>
+</resources>

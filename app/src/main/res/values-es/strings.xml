@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="attackButton">ATAQUE</string>
+    <string name="availableSpells">"MAGIE DISPONIBLE: "</string>
+    <string name="description">DESCRIPCIÓN:</string>
+    <string name="freeze">CONGELAR</string>
+    <string name="heal">SANAR</string>
+    <string name="moveType">TIPO DI MOVIMENTO:</string>
+    <string name="move_range">RAYO DE MOVIMIENTO :</string>
+    <string name="newGame">"JUGADOR 1 vs. JUGADOR 2 "</string>
+    <string name="savedGame">Cargar partida</string>
+    <string name="play">Juegas</string>
+    <string name="rules">Normas</string>
+    <string name="replay">"PARTIDOS HISTORICOS "</string>
+    <string name="strenght">FUERZA:</string>
+    <string name="teleport">TELEPORT</string>
+    <string name="undo">VOLVER</string>
+    <string name="vitality">VIDA:</string>
+    <string name="white_turn">Ronda Blanca</string>
+    <string name="healTips">"seleccionar la pieza para sanar "</string>
+    <string name="moveTips">"seleccione la celda dónde se mueven "</string>
+    <string name="reviveTips">"seleccionar la pieza de reanimar "</string>
+    <string name="teleportTips1">seleccionar la pieza a la viga</string>
+    <string name="teleportTips2">"seleccionar la ubicación en la que teleportas "</string>
+    <string name="reviveTips2">"seleccionar la ubicación en la que revives "</string>
+    <string name="reviveTips1">"no hay piezas muertas para reanimar "</string>
+    <string name="diagonal">diag</string>
+    <string name="teleports">telepuertos</string>
+    <string name="Match">"Match: "</string>
+    <string name="winWantToPlayAgain">"gana! ¿Quieres jugar otra vez? "</string>
+    <string name="wantToPlayAgain">"! ¿Quieres jugar otra vez? "</string>
+    <string name="white">Team Blanco</string>
+    <string name="yes">Si</string>
+    <string name="walk">caminando</string>
+    <string name="vertical">vert</string>
+    <string name="teleported">"se teletransportó "</string>
+    <string name="sureToQuit">"¿Seguro que quieres salir? "</string>
+    <string name="shorterName">"Introduzca un nombre más corto "</string>
+    <string name="saveMatch">Guardar partida</string>
+    <string name="saveBeforeQuit">"¿Quieres salvar el partido antes de salir? "</string>
+    <string name="revives">"ha revivido "</string>
+    <string name="playAgain">"El último turno. Clic en el juego para continuar el juego "</string>
+    <string name="noOneSurvived">nadie sobrevivido</string>
+    <string name="nameRequest">INTRODUCIR EL NOMBRE DEL MATCH</string>
+    <string name="load">Carica</string>
+    <string name="illegalTeleport">"No se permite teletransportarse "</string>
+    <string name="illegalRevive">"No se permite la reanimación "</string>
+    <string name="illegalMove">"No se permite mover "</string>
+    <string name="illegalHeal">"No se permiten las curaciones "</string>
+    <string name="illegalFreeze">"La congelación no permitido "</string>
+    <string name="illegalAttack">"No se les permite atacar "</string>
+    <string name="horizontal">horiz</string>
+    <string name="heals">cura</string>
+    <string name="freezes">congela</string>
+    <string name="fly">vola</string>
+    <string name="duringCombat">pero durante el duelo contra</string>
+    <string name="combatWon">"y ganó el duelo "</string>
+    <string name="combatNotWon">"pero no sobreviven el duelo "</string>
+    <string name="backToGame">"Volver al juego "</string>
+    <string name="attacks">atacó</string>
+    <string name="attack">ATAQUE</string>
+    <string name="against">contra</string>
+    <string name="White">Blanco</string>
+    <string name="NoPieceSurvived">Ninguna pieza ha sobrevivido</string>
+    <string name="No">No</string>
+    <string name="MatchAlreadyExist">Este partido ya no existe</string>
+    <string name="Mage">Mago</string>
+    <string name="Exit">Salida</string>
+    <string name="ChooseYourTeam">Elige tu equipo</string>
+    <string name="ChooseTeam">Eligir equipo</string>
+    <string name="Black">Negro</string>
+    <string name="spell">MAGIA</string>
+    <string name="theGame">\" \n (La partita\'\"</string>
+    <string name="moved">"se ha mudado "</string>
+    <string name="wait">ESPERA UN JUGADOR</string>
+    <string name="AIThinking">" Estoy pensando"</string>
+    <string name="AI">JUGADOR VS. CPU</string>
+    <string name="Quit">Salir</string>
+    <string name="Save">Guardar</string>
+    <string name="and">Y</string>
+    <string name="attackTips">"seleccionar la pieza para atacar "</string>
+    <string name="attackType">TIPO DE ATAQUE</string>
+    <string name="beenSaved">Se guarda automáticamente!)</string>
+    <string name="black">Team Negro</string>
+    <string name="black_turn">Ronda Negro</string>
+    <string name="defeated">derrotò</string>
+    <string name="delete">Elimina</string>
+    <string name="freezeTips">"seleccionar la pieza a ser congelado "</string>
+    <string name="killedAfterAttack">"y lo mató "</string>
+    <string name="moveButton">"MOVIMIENTO "</string>
+    <string name="move_direction">TRAYECTORIA DE MOVIMIENTO</string>
+    <string name="onlineGame">Jugar Online</string>
+    <string name="reviveBothDied">"Ambas piezas están muertos después de la reanimación "</string>
+    <string name="revive">REANIMAR</string>
+    <string name="reviveDied">"La pieza reavivado murió en el duelo "</string>
+    <string name="validName">"Introduzca un nombre válido "</string><string name="completeRules">
+    <![CDATA[
+    <h1>Normas</h1>
+    <h2>Gameplay</h2>
+    <p>*Perdoname Darian por mi espanyol*</p>
+    <p>Hay dos jugadores, blanco y negro, cada uno con 8 piezas. Blanco de inicio y los jugado</p>
+    <p>Un &nbsp;<strong>turno</strong> consiste en una de las siguientes acciones:</p>
+    <ul>
+        <li>Mover una pieza elegida de su propio lado</li>
+        <li>Atacar la pieza de un oponente para reducir su vitalidad</li>
+        <li>Lanzando un hechizo</li>
+    </ul>
+    <p>Cada tipo de pieza tiene diferentes caracter&iacute;sticas: la forma en que puede moverse en la tabla, la forma en que puede atacar otras piezas, su fuerza y ​​su vitalidad. Se puede acceder a toda esa informaci&oacute;n manteniendo pulsada una pieza.</p>
+    <p>Si la vitalidad de una pieza va a 0, la pieza se mata y se retira de la tabla.</p>
+    <h3>Ataque</h3>
+    <p>Una pieza puede atacar a un oponente si el oponente est&aacute; en el rango y no hay otras piezas entre ellos a lo largo de la direcci&oacute;n de ataque. Cuando se ataca una pieza, su vitalidad se ve disminuida por la fuerza del atacante. (Recuerde que los magos y el escudero no pueden atacar)</p>
+    <h3>Duel</h3>
+    <p>Si un movimiento hace que una pieza llegue a una celda ocupada por una pieza de un apego, comienzan un combate: ambas piezas disminuyen su vitalidad por una cantidad igual a la fuerza de su oponente; Esto se repite hasta que se maten una o ambas piezas.</p>
+    <p><strong>Magie</strong></p>
+    <p>Los magos pueden lanzar hechizos. Cada hechizo s&oacute;lo puede ser emitido una vez por un mago. Ning&uacute;n hechizo puede involucrar una celda especial o una celda donde es mago. Hay 4 tipos de hechizos:</p>
+    <ul>
+        <li>Cura: restaura la vitalidad inicial de la pieza de un jugador</li>
+        <li>Teletransporte:mover una pieza seleccionada a cualquier celda que no est&eacute; ocupada por un aliado.</li>
+        <li>Congelar: la pieza de un oponente seleccionado se congela hasta el final del tercer turno del oponente. Cuando se congela la pieza no puede moverse, atacar o repartir da&ntilde;o en combate.</li>
+        <li>Revivir: devolver la pieza muerta de un jugador con su vitalidad inicial y descongelarse en su posici&oacute;n inicial (o una de las posiciones iniciales en el caso de caballero o escudero).</li>
+    </ul>
+    <h2>Objetivo del juego</h2>
+    <p>El objetivo es ocupar tres de cada cuatro celdas especiales en el tablero con sus propias piezas, o matar todas las piezas del oponente.</p>
+    ]]></string>
+    <string name="load_game">CARGA PARTIDO</string>
+    <string name="attackRange">CAMPO DE ATAQUE:</string>
+    <string name="move">MOVIMIENTO</string>
+</resources>
