@@ -1,7 +1,7 @@
 # Complicated-Chess
 A chess game, willfully more complicated.
 
-__Rules:__
+
 
 <h2>Gameplay</h2>
 
@@ -42,7 +42,7 @@ __Rules:__
 
 <p>The goal is to occupy three out of four special cells in the board with one's own pieces, or to kill all the opponent's pieces.</p>
 
-]]>
+
 
 __OS:__ Android
 
